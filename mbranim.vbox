@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{c6964bbb-394c-4874-81c4-b65bd11ea523}" name="mbranim" OSType="DOS" snapshotFolder="Snapshots" lastStateChange="2023-05-16T19:36:23Z">
+  <Machine uuid="{c6964bbb-394c-4874-81c4-b65bd11ea523}" name="mbranim" OSType="DOS" snapshotFolder="Snapshots" lastStateChange="2023-05-16T19:53:45Z">
     <MediaRegistry>
       <FloppyImages>
         <Image uuid="{da3082a7-a250-45b5-99aa-cd9db0598152}" location="build/mbranim.img"/>
@@ -40,7 +40,7 @@
       <AudioAdapter controller="SB16" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="de_DE" timestamp="1684265776820786500" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="de_DE" timestamp="1684266590685811900" flags="RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="Floppy" type="I82078" PortCount="1" useHostIOCache="true" Bootable="true">
